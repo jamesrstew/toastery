@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Toastery Roastery offers specialty coffee roasting and delivery. Super rare, made-to-order, micro-roasted, and always tasty coffee.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <title>Toastery Roastery | Super Rare Coffee Delivery</title>
     <meta name="author" content="Toastery Roastery LLC">
@@ -19,17 +20,32 @@
     </script>
 </head>
 <body>
-    <header>
-        <img class="rotate-slowly" src="beans-white.png" alt="Toastery Roastery Logo" height="40px" width="40px">
-        <nav>
-            <ul>
-                <li class="active"><a href="#">HOME</a></li>
-                <li><a href="#">HOW IT WORKS</a></li>
-                <li><a href="#">CURRENT OFFERINGS</a></li>
-                <li><a href="#">ABOUT</a></li>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <a class="navbar-brand" href="#">
+            <img class="rotate-slowly" src="beans-white.png" alt="Toastery Roastery Logo" height="40" width="40">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">HOW IT WORKS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CURRENT OFFERINGS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT</a>
+                </li>
             </ul>
-        </nav>
-    </header>
+        </div>
+    </nav>
+</header>
     <main>
         <div class="centered-div">
             <h1>VERY GOOD COFFEE</h1>
@@ -43,5 +59,6 @@
             <a href="sms:+15412416749&body=YUM" class="sms-button spacing-2">HERE</a>
         </div>
     </main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
