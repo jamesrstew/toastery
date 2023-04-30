@@ -2,18 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* cursor: crosshair; */
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .navbar {
     padding: 1rem;
-    background-color: black;
+    background-color: white;
 }
 
 .navbar-nav {
@@ -25,11 +24,11 @@ body {
 }
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0, 0, 0)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 .nav-link {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -64,7 +63,7 @@ body {
     letter-spacing: 2px;
     text-decoration: none;
     text-transform: uppercase;
-    color: #fff;
+    color: #000;
     cursor: pointer;
     border: 3px solid;
     padding: 10px 20px;
@@ -101,14 +100,14 @@ body {
 }
 
 .custom-accordion.accordion .accordion-item .accordion-button {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     border: none;
     border-radius: 0;
 }
 
 .custom-accordion.accordion .accordion-item .accordion-button:hover {
-    background-color: #333;
+    background-color: #f0f0f0;
     cursor: pointer;
 }
 
@@ -117,7 +116,7 @@ body {
 }
 
 .custom-accordion.accordion .accordion-item .accordion-collapse {
-    background-color: black;
+    background-color: white;
 }
 
 .faq-title {
