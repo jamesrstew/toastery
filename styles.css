@@ -17,7 +17,15 @@ body {
 }
 
 .navbar-nav {
-    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 .nav-link {
@@ -90,4 +98,34 @@ body {
 
 .rotate-slowly {
     animation: rotate 10s linear infinite;
+}
+
+.custom-accordion.accordion .accordion-item .accordion-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0;
+}
+
+.custom-accordion.accordion .accordion-item .accordion-button:hover {
+    background-color: #333;
+    cursor: pointer;
+}
+
+.custom-accordion.accordion .accordion-item .accordion-button:not(.collapsed) {
+    border-bottom: none;
+}
+
+.custom-accordion.accordion .accordion-item .accordion-collapse {
+    background-color: black;
+}
+
+.faq-title {
+    text-align: left;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
