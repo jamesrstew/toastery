@@ -20,7 +20,7 @@ em, i {
 
 .navbar {
     padding: 1rem;
-    background-color: white;
+    background-color: transparent;
 }
 
 .navbar-nav {
@@ -53,6 +53,14 @@ em, i {
 }
 
 .spacing-2 {
+    margin-bottom: 50px;
+}
+
+.spacing-3 {
+    margin-bottom: 100px;
+}
+
+.spacing-4 {
     margin-bottom: 200px;
 }
 
@@ -107,24 +115,24 @@ em, i {
     animation: rotate 10s linear infinite;
 }
 
-.custom-accordion.accordion .accordion-item .accordion-button {
-    background-color: white;
+body .custom-accordion.accordion .accordion-item .accordion-header .accordion-button {
+    background-color: transparent !important;
     color: black;
     border: none;
     border-radius: 0;
 }
 
-.custom-accordion.accordion .accordion-item .accordion-button:hover {
-    background-color: #f0f0f0;
+body .custom-accordion.accordion .accordion-item .accordion-header .accordion-button:hover {
+    background-color: transparent !important;
     cursor: pointer;
 }
 
-.custom-accordion.accordion .accordion-item .accordion-button:not(.collapsed) {
-    border-bottom: none;
+body .custom-accordion.accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+    border-bottom: none !important;
 }
 
-.custom-accordion.accordion .accordion-item .accordion-collapse {
-    background-color: white;
+body .custom-accordion.accordion .accordion-item .accordion-collapse {
+    background-color: transparent !important;
 }
 
 .faq-title {
@@ -151,4 +159,19 @@ em, i {
 
 a.sms-button:hover {
   animation: bounce 1s ease infinite;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: inherit;
+}
+
+a:focus {
+  text-decoration: none;
+  color: inherit;
 }
