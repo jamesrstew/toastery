@@ -4,6 +4,22 @@
     box-sizing: border-box;
 }
 
+#about {
+    background-color: #F1C35F;
+}
+
+#index {
+    background-color: #D4DED8;
+}
+
+#how-it-works {
+    background-color: #F8D6DD;
+}
+
+#home-page {
+    background-color: #ff0; /* Yellow */
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: white;
