@@ -5,7 +5,7 @@
 }
 
 #about {
-    background-color: #F1C35F;
+    background-color: #BDBD93;
 }
 
 #index {
@@ -13,11 +13,7 @@
 }
 
 #how-it-works {
-    background-color: #F8D6DD;
-}
-
-#home-page {
-    background-color: #ff0; /* Yellow */
+    background-color: #DF8B67;
 }
 
 body {
@@ -131,26 +127,6 @@ em, i {
     animation: rotate 10s linear infinite;
 }
 
-body .custom-accordion.accordion .accordion-item .accordion-header .accordion-button {
-    background-color: transparent !important;
-    color: black;
-    border: none;
-    border-radius: 0;
-}
-
-body .custom-accordion.accordion .accordion-item .accordion-header .accordion-button:hover {
-    background-color: transparent !important;
-    cursor: pointer;
-}
-
-body .custom-accordion.accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
-    border-bottom: none !important;
-}
-
-body .custom-accordion.accordion .accordion-item .accordion-collapse {
-    background-color: transparent !important;
-}
-
 .faq-title {
     text-align: left;
 }
@@ -190,4 +166,28 @@ a:hover {
 a:focus {
   text-decoration: none;
   color: inherit;
+}
+
+.accordion-button, .accordion-body {
+    background-color: #DF8B67 !important;
+}
+
+.accordion-button:focus {
+    color: #000 !important;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+}
+
+.accordion-item {
+    border: 2px solid black;
+}
+
+@media (min-width: 992px) {
+    .custom-row {
+        display: flex;
+        align-items: center;
+    }
 }
