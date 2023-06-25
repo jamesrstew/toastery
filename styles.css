@@ -195,3 +195,9 @@ a:focus {
         align-items: center;
     }
 }
+
+.caption {
+    color: gray;
+    font-size: 0.8rem;
+    font-style: italic;
+}
