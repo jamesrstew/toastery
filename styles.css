@@ -201,3 +201,32 @@ a:focus {
     font-size: 0.8rem;
     font-style: italic;
 }
+
+.blog-cta {
+    background-color: #000;
+    color: #fff;
+    padding: 3rem 0;
+}
+
+.sms-button-white {
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-color: #fff;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 10px 20px;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.sms-button-white:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+}
