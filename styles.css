@@ -110,6 +110,7 @@ i {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+    background-color: transparent;
 }
 
 .sms-button:active {

@@ -86,7 +86,7 @@
             <h2>MICRO ROASTED</h2>
             <h2>MADE TO ORDER</h2>
             <h2 class="spacing-1">ALWAYS TASTY</h2>
-            <a href="sms:+15412416749&body=BEANSPLZ" class="sms-button spacing-4">REQUEST ACCESS</a>
+            <button class="sms-button spacing-4 klaviyo_form_trigger">REQUEST ACCESS</button>
             <img class="img-fluid" src="cactus.png" alt="Cactus">
         </div>
     </main>
@@ -96,6 +96,12 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
         integrity="sha384-eMNCOe7tC1doHpGoJtKh7z7lGz7fuP4F8nfdFvAOA6Gg/z6Y5J6XqqyGXYM2ntX1"
         crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        document.querySelector('.klaviyo_form_trigger').addEventListener('click', function () {
+            window._klOnsite = window._klOnsite || [];
+            window._klOnsite.push(['openForm', 'WktRsF']);
+        });
+    </script>
 </body>
 
 </html>
