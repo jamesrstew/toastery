@@ -168,7 +168,7 @@
                         <h2 class="spacing-2">
                             Never miss a coffee drop. Subscribe via text.
                         </h2>
-                        <a href="sms:+15412416749&body=BEANSPLZ" class="sms-button sms-button-white">LET'S DO THIS</a>
+                        <button href="sms:+15412416749&body=BEANSPLZ" class="sms-button sms-button-white klaviyo_form_trigger">LET'S DO THIS</button>
                     </div>
                 </div>
             </div>
@@ -180,6 +180,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            document.querySelector('.klaviyo_form_trigger').addEventListener('click', function () {
+                window._klOnsite = window._klOnsite || [];
+                window._klOnsite.push(['openForm', 'WktRsF']);
+            });
+        </script>
 </body>
 
 </html>
